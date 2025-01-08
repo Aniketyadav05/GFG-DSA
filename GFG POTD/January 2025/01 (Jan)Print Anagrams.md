@@ -1,4 +1,4 @@
-## 01. Count the number of possible triangles
+## 01. Print Anagrams Together
 **The problem can be found at the following link: [question link](https://www.geeksforgeeks.org/problems/print-anagrams-together/1)**
 
 
