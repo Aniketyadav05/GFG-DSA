@@ -1,4 +1,4 @@
-## 08. Count the number of possible triangles
+## 01. Count the number of possible triangles
 **The problem can be found at the following link: [question link](https://www.geeksforgeeks.org/problems/print-anagrams-together/1)**
 
 
@@ -119,5 +119,3 @@ For discussions, questions, or doubts related to this solution, please visit my 
 
 
 
-![Visitor Count](![Visitor Count](https://shields.io/badge/dynamic/json?color=success&label=Visitors&query=value&url=https%3A%2F%2Fapi.countapi.xyz%2Fget%2Fyour-namespace%2Fyour-key)
-)
