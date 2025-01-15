@@ -1,4 +1,4 @@
-## 09. Find K-th Element in Two Sorted Arrays
+## 16. Find K-th Element in Two Sorted Arrays
 
 **The problem can be found at the following link: [question link](https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1)**
 
