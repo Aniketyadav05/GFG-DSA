@@ -5,9 +5,9 @@ Welcome to the **GeeksforGeeks Problem of the Day (POTD) Solutions** repository!
 
 ## 📋 Table of Contents
 
-- [📝 Introduction](#introduction)
-- [💡 Solutions](#solutions)
-  - [📅 January 2025](#january-2025)
+- [📝 Introduction](#Introduction)
+- [💡 Solutions](#Solutions)
+  - [📅 January 2025](#January-2025)
 - [🛠 How to Use](#how-to-use)
 - [🤝 Contributing](#contributing)
 - [📄 License](#license)
@@ -18,39 +18,30 @@ The **Problem of the Day (POTD)** is an initiative by GeeksforGeeks to help prog
 
 ## 💡 Solutions
 
-### 📅 January 2025
+### 📅 January-2025
 
 | 📅 Date       | 🖋 Problem Name                                                                 | 🔗 Solution                                                                                     |
 |------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| 01 Jan 25  | [Longest Subarray with Sum K](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/longest_subarray_with_sum_k.cpp) |
-| 02 Jan 25  | [Maximum Length of Subarray with Equal 0s and 1s](https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/maximum_length_subarray_equal_0s_1s.cpp) |
+| 01 Jan 25  | [Print Anagrams Together](https://www.geeksforgeeks.org/problems/print-anagrams-together/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/01%20(Jan)%20Print%20Anagrams.md) |
+| 02 Jan 25  | [Subarrays with sum K](https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/02%20(Jan)%20Subarrays%20with%20sum%20K.md) |
 | 03 Jan 25  | [Product of Array Except Self](https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/product_of_array_except_self.cpp) |
 | 04 Jan 25  | [Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/reverse_linked_list.cpp) |
 
 *Note: The above table will be updated regularly with new solutions as they are added.*
 
-## 🛠 How to Use
 
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/Aniketyadav05/GFG-DSA.git
-   ```
-
-2. **Navigate to the POTD Directory**:
-
-   ```bash
-   cd GFG-DSA/GFG\ POTD
-   ```
-
-3. **Compile and Run a Solution**:
-
-   ```bash
-   g++ -o solution_name solution_name.cpp
-   ./solution_name
-   ```
-
-   Replace `solution_name` with the actual name of the solution file you wish to compile and run.
+## 💡 Why Follow This Repository?
+- 🏋️‍♂️ Daily Practice: Tackle a new problem every day and sharpen your problem-solving skills.
+- 🧠 Diverse Topics: Master algorithms, data structures, dynamic programming, and more.
+- 🤝 Community Collaboration: Discuss and improve solutions together for mutual growth.
+- 📈 Solution Explanations: Each problem comes with clear, well-documented solutions to aid your learning.
+## 🔍 How To Use This Repository
+- 📂 Navigate Effortlessly: Problems are sorted by date for easy access.
+- 📝 Study Explanations: Grasp the core logic behind each solution.
+- 🎭 Experiment & Practice: Modify solutions or try implementing them in other languages.
+- 💬 Engage & Collaborate: Connect with the community to gain deeper insights.
+- 🚀 Languages Used
+C++
 
 ## 🤝 Contributing
 
