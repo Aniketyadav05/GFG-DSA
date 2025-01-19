@@ -52,6 +52,7 @@ The **Problem of the Day (POTD)** is an initiative by GeeksforGeeks to help prog
 | 17 Jan 25  | [Product of Array Except Self](https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/17%20(Jan)%20Product%20array%20puzzle.md) |
 | 18 Jan 25  | [Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/18%20(Jan)%20Reverse%20a%20linked%20list.md) |
 | 19 Jan 25  | [Rotate a Linked List](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/19%20(Jan)%20Rotate%20a%20Linked%20List.md) |
+| 20 Jan 25  | [Merge Two Sorted Linked Lists](https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/20%20(Jan)%20Merge%20two%20sorted%20linked%20lists.md) |
 
 *Note: The above table will be updated regularly with new solutions as they are added.*
 
