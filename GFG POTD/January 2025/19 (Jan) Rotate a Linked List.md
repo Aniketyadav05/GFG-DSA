@@ -1,103 +1,130 @@
-# 19 Reverse a Linked List
+# 19. Rotate a Linked List
 
-**The problem can be found at the following link: [Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1)**
+**The problem can be found at the following link: [Rotate a Linked List](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1)**
 
 ## Problem Statement
 
-Given a linked list of `N` nodes, the task is to reverse the list.
+Given a singly linked list and an integer `k`, rotate the linked list to the right by `k` places.
 
 ### Example:
 
 #### Input:
 ```
-LinkedList: 1->2->3->4->5->NULL
+LinkedList: 1->2->3->4->5->NULL, k = 2
 ```
 
 #### Output:
 ```
-5 4 3 2 1
+4 5 1 2 3
 ```
 
 #### Explanation:
-After reversing the list, the elements are `5->4->3->2->1->NULL`.
+After rotating the list by 2 places, the new list becomes `4->5->1->2->3->NULL`.
 
 ---
 
 ## Approach
 
-### Using a Stack:
+### Steps:
 
-1. Traverse the linked list and push each node onto a stack.
-2. Once all nodes are on the stack, pop each node and rearrange the links to reverse the list.
+1. Calculate the length of the linked list.
+2. Update `k` as `k % length` to handle cases where `k` is greater than the length of the list.
+3. If `k` is 0, return the original list as no rotation is needed.
+4. Traverse the list to the `(length - k)`-th node.
+5. Update the next pointer of the current node to `NULL` and make the next node as the new head.
+6. Link the last node of the list to the original head.
 
 ---
 
 ## Code
 
 ```cpp
-#include <iostream>
-#include <stack>
+#include <bits/stdc++.h>
 using namespace std;
 
-/* Link list Node */
 struct Node {
     int data;
-    struct Node *next;
-    
+    struct Node* next;
+
     Node(int x) {
         data = x;
         next = NULL;
     }
 };
 
+void printList(Node* node) {
+    while (node != NULL) {
+        cout << node->data << " ";
+        node = node->next;
+    }
+    cout << "\n";
+}
+
 class Solution {
   public:
-    Node* reverseList(struct Node* head) {
-        stack<Node*> s;
-        Node* temp = head;
-        
-        while (temp != NULL) {
-            s.push(temp);
-            temp = temp->next;
+    Node* rotate(Node* head, int k) {
+        if (k == 0 || head == nullptr)
+            return head;
+
+        Node *curr = head;
+        int len = 1;
+      
+        while (curr->next != nullptr) {
+            curr = curr->next;
+            len += 1;
         }
         
-        head = s.top();
-        s.pop();
-        temp = head;
+        k %= len;
+        if (k == 0)
+            return head;
+          
+        curr->next = head; // Make it circular
         
-        while (!s.empty()) {
-            temp->next = s.top();
-            s.pop();
-            temp = temp->next;
-        }
-        
-        temp->next = NULL;
+        curr = head;
+        for (int i = 1; i < len - k; i++)
+            curr = curr->next;
+    
+        head = curr->next;
+        curr->next = nullptr;
         return head;
     }
 };
 
-void printList(Node *head) {
-    Node *temp = head;
-    while (temp != NULL) {
-        cout << temp->data << " ";
-        temp = temp->next;
-    }
-    cout << endl;
-}
-
 int main() {
-    Node *head = new Node(1);
-    head->next = new Node(2);
-    head->next->next = new Node(3);
-    head->next->next->next = new Node(4);
-    head->next->next->next->next = new Node(5);
+    int t;
+    cin >> t;
+    cin.ignore();
 
-    Solution ob;
-    head = ob.reverseList(head);
+    while (t--) {
+        vector<int> arr;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
 
-    printList(head);
+        while (ss >> number) {
+            arr.push_back(number);
+        }
 
-    return 0;
+        Node* head = nullptr;
+        if (!arr.empty()) {
+            head = new Node(arr[0]);
+            Node* tail = head;
+            for (size_t i = 1; i < arr.size(); ++i) {
+                tail->next = new Node(arr[i]);
+                tail = tail->next;
+            }
+        }
+        int k;
+        cin >> k;
+        cin.ignore();
+
+        Solution ob;
+        head = ob.rotate(head, k);
+        printList(head);
+        cout << "~\n";
+    }
+    return 1;
 }
 ```
 
@@ -105,12 +132,13 @@ int main() {
 
 ## Explanation
 
-- **reverseList Function:**
-  - The function uses a stack to store the nodes while traversing the linked list.
-  - After storing all nodes, it pops them and rearranges the links to reverse the list.
+- **rotate Function:**
+  - It calculates the length of the list and updates `k` as `k % length`.
+  - If `k` is 0, it returns the original head.
+  - Otherwise, it makes the list circular, moves to the `(length - k)`-th node, and updates the next pointers to rotate the list.
 
 - **printList Function:**
-  - It prints the reversed linked list.
+  - It prints the linked list starting from the head.
 
 ---
 
@@ -120,7 +148,7 @@ int main() {
   - `O(N)`, where `N` is the number of nodes in the linked list.
 
 - **Space Complexity:**
-  - `O(N)` for the stack used to store the nodes.
+  - `O(1)` as only constant extra space is used.
 
 ---
 
