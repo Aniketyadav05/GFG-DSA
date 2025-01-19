@@ -75,7 +75,7 @@ Contributions are welcome! If you have a more efficient solution or find any iss
 
 ## 📄 License
 
-This repository is licensed under the MIT License. For more details, refer to the [LICENSE](https://github.com/Aniketyadav05/GFG-DSA/blob/main/LICENSE) file.
+This repository is licensed under the MIT License. For more details, refer to the [LICENSE]() file.
 
 ---
 
