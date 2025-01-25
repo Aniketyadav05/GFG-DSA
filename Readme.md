@@ -56,6 +56,7 @@ The **Problem of the Day (POTD)** is an initiative by GeeksforGeeks to help prog
 | 21 Jan 25  | [Linked List Group Reverse](https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/21%20(Jan)%20Linked%20List%20Group%20Reverse.md) |
 | 22 Jan 25  | [Add Number Linked Lists](https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/22%20(Jan)%20Add%20Number%20Linked%20Lists.md) |
 | 23 Jan 25  | [ Clone a Linked List with Next and Random Pointer](https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/23%20(Jan)%20Clone%20List%20with%20Next%20and%20Random.md) |
+| 24 Jan 25  | [Detect Loop in a Linked List](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/24%20(Jan)%20Detect%20Loop%20in%20linked%20list.md) |
 *Note: The above table will be updated regularly with new solutions as they are added.*
 
 
