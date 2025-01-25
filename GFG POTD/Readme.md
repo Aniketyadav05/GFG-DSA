@@ -57,6 +57,8 @@ The **Problem of the Day (POTD)** is an initiative by GeeksforGeeks to help prog
 | 22 Jan 25  | [Add Number Linked Lists](https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/22%20(Jan)%20Add%20Number%20Linked%20Lists.md) |
 | 23 Jan 25  | [ Clone a Linked List with Next and Random Pointer](https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/23%20(Jan)%20Clone%20List%20with%20Next%20and%20Random.md) |
 | 24 Jan 25  | [Detect Loop in a Linked List](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/24%20(Jan)%20Detect%20Loop%20in%20linked%20list.md) |
+| 25 Jan 25  | [Find the First Node of Loop in Linked List](https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/25%20(Jan)%20Find%20the%20first%20node%20of%20loop%20in%20linked%20list.md) |
+
 
 *Note: The above table will be updated regularly with new solutions as they are added.*
 
