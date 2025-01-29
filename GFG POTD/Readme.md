@@ -60,6 +60,8 @@ The **Problem of the Day (POTD)** is an initiative by GeeksforGeeks to help prog
 | 25 Jan 25  | [Find the First Node of Loop in Linked List](https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/25%20(Jan)%20Find%20the%20first%20node%20of%20loop%20in%20linked%20list.md) |
 | 26 Jan 25  | [Remove loop in Linked List](https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/26%20(Jan)%20Remove%20loop%20in%20Linked%20List.md) |
 | 27 Jan 25  | [LRU Cache](https://www.geeksforgeeks.org/problems/lru-cache/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/27%20(Jan)%20LRU%20Cache.md) |
+| 28 Jan 25  | [Permutations of a Given String](https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/28%20(Jan)%20Permutation%20of%20a%20String.md) |
+| 29 Jan 25  | [Implement Pow](https://www.geeksforgeeks.org/problems/powx-n/1) | [Solution](https://github.com/Aniketyadav05/GFG-DSA/blob/main/GFG%20POTD/January%202025/29%20(Jan)%20Implement%20Pow.md) |
 
 *Note: The above table will be updated regularly with new solutions as they are added.*
 
